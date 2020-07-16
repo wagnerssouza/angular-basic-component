@@ -1,0 +1,13 @@
+<app-button
+  [cep]="meuEndereco1"
+  label="meu texto"
+  numero="7"
+  (responseComponent)="methodHomeComponent($event)"
+></app-button>
+
+<app-button
+  [cep]="meuEndereco2"
+  label="Novo botão"
+  numero="5"
+  (responseComponent)="methodHomeComponent($event)"
+></app-button>
